@@ -1,0 +1,27 @@
+:root {
+	--color-primary: #9fa836;
+	--color-secondary: #e50f0f;
+	--color-tertiary: #f8ead8;
+	--color-font: #f9f5e7;
+}
+
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+body {
+	background-color: var(--color-primary);
+	color: var(--color-font);
+}
+
+form div,
+.data-group {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 400px;
+	margin-inline: auto;
+}
